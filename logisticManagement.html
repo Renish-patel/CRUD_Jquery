@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <h1> LOGISTIC MANAGEMENT</h1>
+
+    <form class="logistic" autocomplete="off">
+        <input type="hidden" id="hide">
+        <div>
+            <label class="a2">
+                <spam class="b1">ID:</spam><input type="number" class="c1" id="ID" name="ID" placeholder="enter ID" onblur=" validation('ID','error','ID:')">
+            </label>
+            <br>
+            <span id = "error"></span>
+            <br>
+            <label class="a2">
+                <spam class="b1">ITEM NAME:</spam><input type="text" id="ITEM" class="c1" onblur="validation('ITEM','iError','ITEM NAME:')" name="Item name" placeholder="enter item name">
+            </label>
+            <br>
+            <span id = "iError"></span>
+            <br>
+            <label class="a2">
+                <spam class="b1">DATE:</spam><input type="date" id="date" class="c1" onblur=" validation('date','dError','DATE:')" name="date" id="date">
+            </label>
+            <br>
+            <span id = "dError"></span>
+            <br>
+            <label class="a2" for="category" id="a3">CATEGORY:</label>
+            <select name="category" id="category" onblur=" validation('category','sError','CATEGORY:')">
+                <option value="" disabled selected >select</option>
+                <option value="electronis">electronics</option>
+                <option value="paper">paper</option>
+                <option value="cheque">cheque</option>
+            </select>
+            <br>
+            <span id = "sError"></span>
+            <br>
+            <button class="button"  onclick="addData()" type="button" id="update">submit</button>
+            <button class="button" onclick="resetform()" type="button" >reset</button>
+        </div>
+    </form>
+    <table class="storage" id="list">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>date</th>
+                <th>category</th>
+                <th>action</th>
+            </tr>
+        </thead>
+    </table>
+    <script src="jquery1.js"></script>
+</body>
+
+</html>

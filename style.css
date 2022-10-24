@@ -1,0 +1,127 @@
+h1 {
+    text-align: center;
+    color: #6e5501;
+    margin: 25px 0px 11px -9px;
+    padding: 0px 2px 0px 1px;
+}
+
+.logistic {
+    text-align: center;
+    color: #f5d15b;
+}
+
+input {
+    /* background:url(bg-dot.jpg) repeat-x center bottom; */
+    border: none;
+    padding: 2px 2px;
+}
+
+#ID {
+    width: 310px;
+    padding: 14px 18px;
+    ;
+    margin: 8px 65px 0px 85px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#ITEM {
+    width: 310px;
+    padding: 12px 20px;
+    margin: 8px 70px 0px 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#date {
+    width: 310px;
+    padding: 12px 20px;
+    margin: 8px 66px 0px 65px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#category {
+    width: 310px;
+    padding: 12px 20px;
+    margin: 8px 66px 0px 65px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #ccc;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: dotted;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 6px;
+}
+
+.b1 {
+    margin: 1px 0px 0px 0px;
+    padding-inline: 22px;
+}
+
+#mr {
+    margin: 19px 50px 0px 0px;
+}
+
+#pm {
+    margin: 19px 22px 0px 0px;
+}
+
+/* #pmm
+   {
+   margin: 19px 22px 0px 0px;
+   } */
+#list th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #d2e6de;
+    color: white;
+}
+
+#list {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#list td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#list tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#list tr:hover {
+    background-color: #ddd;
+}
+
+#a3 {
+    margin: 7px -24px 0px 23px;
+}
+
+.same {
+    background-color: #ccc;
+    border-radius: 13px;
+    text-align: center;
+    text-decoration: dotted;
+    margin: 4px 2px;
+    padding: 6px;
+}
