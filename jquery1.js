@@ -40,9 +40,6 @@ function addData() {
     }
 }
 
-
-
-
 //editRaw
 
 $('#list').on("click", "#es", function () {
@@ -66,12 +63,6 @@ $('#list').on("click", "#es", function () {
     $("#update").html("update")
     $("#update").attr("onclick", "updateData("+editRow+")");
 });
-
-
-
-
-
-
 
 //Update data
 function updateData() {
@@ -124,8 +115,6 @@ $("#list").on("click", "#et", function () {
     }
 
 });
-
-
 //validation
 function validation(elementId, errorId, fieldName) {
 
@@ -137,8 +126,6 @@ function validation(elementId, errorId, fieldName) {
         $(`#${errorId}`).text("");
     }
 }
-
-
 
 //reset Data
 
